@@ -26,7 +26,7 @@ func main() {
 
 	more := []string{"learn golang"}
 
-	//...
+	//...-->for appending we need to use spread operator
 	todos = append(todos, more...)
 	fmt.Println(todos)
 
